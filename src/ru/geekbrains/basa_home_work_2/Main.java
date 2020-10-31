@@ -59,7 +59,15 @@ public class Main {
 
         /*for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(arr[i][j]);*/
+                System.out.print(arr[i][j]);
+
+
+        public class MainClass {
+
+                String[] arr = {"A", "B", "C", "D"};
+                System.out.println(Arrays.toString(arr));
+
+        }
 
 
 
@@ -74,9 +82,9 @@ public class Main {
                 left = checkBalance[i] + i;
             for (int j = checkBalance[3]; j <= checkBalance[4]; j++)
                 right = checkBalance[j] = j;
-            if (left == right) return true; }
+            if (left == right) return true; }*/
         }
     }
-}
+
 
 
